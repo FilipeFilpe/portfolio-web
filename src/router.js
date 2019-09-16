@@ -8,7 +8,9 @@ import './index.sass';
 
 const Routes = () => (
     <BrowserRouter>
-        <BarraLateral />
+        <div className="left-content">
+            <BarraLateral />
+        </div>
         <div className="right-content">
             <Habilidades />
             <Projetos />

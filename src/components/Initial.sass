@@ -1,0 +1,25 @@
+@import '../vars'
+
+.left-content
+    background-color: $secondColor
+    color: $primaryColor
+    width: 300px
+    padding: 15px
+    display: flex
+    align-items: center
+    flex-direction: column
+.right-content
+    width: 100%
+    color: $secondColor
+    div[class^=container-]
+        padding: 0 15px
+    .titulo
+        width: 100%
+        margin: 20px 0
+        border-bottom: 2px solid
+        text-align: center
+        font-weight: 400
+        font-size: 40px
+@media (max-width: 768px)
+    .left-content
+        margin-left: -300px
