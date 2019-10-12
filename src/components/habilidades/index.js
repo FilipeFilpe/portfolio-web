@@ -8,7 +8,7 @@ class Habilidades extends Component {
         const { habilidades } = new Profissional().profissional;
         return (
             <div className="container-habilidades">
-                <div className="titulo"> {habilidades.titulo} </div>
+                <div className="titulo"> {habilidades.titulo} T </div>
                 <div className="items">
                     {habilidades.items.map( e => (
                         <div className="item" key={e._id+e.nome}>
